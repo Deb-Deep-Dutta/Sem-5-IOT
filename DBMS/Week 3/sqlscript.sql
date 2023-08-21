@@ -9,10 +9,10 @@ select (f_name||' is a '||job_type) as "Employee Details" from employee;
 /*3. Show the monthly salary details in the following fashion
 Monthly Salary Details
 Arun’s monthly salary is Rs. 90000*/
-select (f_name||q'['s]'||' monthly salary is Rs. '||salary) as "Monthly Salary Details" from employee;
+
+select (f_name||'''s monthly salary is Rs '|| salary) as "Monthly Salary Details" from employee;
 
 /*4.Show the different department names from department table.*/
-
 select d_name from department;
 
 /*5. Show the employee names who works in ‘Sales’*/
