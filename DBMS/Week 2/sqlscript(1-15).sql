@@ -5,6 +5,7 @@ create table employee
     emp_id int, 
     f_name varchar(20), 
     l_name varchar(40), 
+    job_type varchar(40),
     salary int, 
     dept varchar(20), 
     commission int, 
