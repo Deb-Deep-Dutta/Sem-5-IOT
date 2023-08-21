@@ -34,7 +34,8 @@ add date_of_joining date;
 create table department 
 ( 
     d_name varchar(30) not null, 
-    d_loc varchar(45), 
+    d_loc varchar(45),
+    hod_id int,
     primary key(d_name) 
 );
 
