@@ -1,0 +1,1 @@
+Contains all the solutions to the sql questions given on the combined day.
