@@ -4,12 +4,12 @@ select f_name, l_name, job_type from employee;
 /*2. Show employee details in the following fashion:
 Employee details
 Arun is a manager*/
-aelect (f_name||' is a '||job_type) as "Employee Details" from employee;
+select (f_name||' is a '||job_type) as "Employee Details" from employee;
 
 /*3. Show the monthly salary details in the following fashion
 Monthly Salary Details
 Arun’s monthly salary is Rs. 90000*/
-selct (f_name||q'['s]'||' monthly salary is Rs. '||salary)as "Monthly Salary Details" from employee;
+select (f_name||q'['s]'||' monthly salary is Rs. '||salary)as "Monthly Salary Details" from employee;
 
 /*4. Show the different department namesfrom department table*/
 select d_name from department;
