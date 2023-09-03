@@ -41,8 +41,8 @@ select ceil(14.887) as "Ceiling", floor(14.887) as "Floor", round(17.49989) as "
 --5. Show the current date
 
 select to_char(current_date,'dd-mm-yyyy') as "Current Date" from dual;
-
 --or select current_date as "Current Date" from dual;
+--or select sysdate as "Current Date" from dual;
 
 --6. Find the total experience of the employees in weeks who works in Sales department
 
