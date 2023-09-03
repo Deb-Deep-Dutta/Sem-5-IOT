@@ -29,6 +29,7 @@ select round(23.321654981421684,3) as "Round to" from dual;
 select count(*) as "Count" from dual;
 select exp(6) as "Exponent" from dual;
 select mod(645131541168412,132564) as "Remainder" from dual;
+select max(salary) as "Maximum", min(salary) as "Minimum", avg(salary) as "Average" from employee;
 
 /*4. Solve the following queries
 a. Find the ceiling and floor value of 14.887.
