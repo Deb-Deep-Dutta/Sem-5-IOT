@@ -72,5 +72,5 @@ select round(sysdate) as "Rounded" from dual;
 --f. Trunc
 select trunc(systimestamp,'y') as "Truncated" from dual;
 
---g. To_char*/
+--g. To_char
 select to_char(systimestamp,'DD-MON-YYYY HH24:MI:SS TZH:TZM') as "Formatted Date" from dual;
