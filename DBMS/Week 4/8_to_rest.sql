@@ -68,10 +68,10 @@ create table countries(
 );
 insert into locations(location_id,street_address,postal_code,city,state_province,country_id)
 with names as(
-    select 1000,'1297 Via Cola di Rie','989','Rome','','IT' from dual union all
-    select 1100,'93091 Calle della Te','10034','Venice','','IT' from dual union all
+    select 1000,'1297 Via Cola di Rie','989','Rome',NULL,'IT' from dual union all
+    select 1100,'93091 Calle della Te','10034','Venice',NULL,'IT' from dual union all
     select 1200,'2017 Shinjuku-ku','1689','Tokyo','Tokyo Prefecture','JP' from dual union all
-    select 1300,'0450 Kamiya-cho','6823','Hiroshima','','JP' from dual union all
+    select 1300,'0450 Kamiya-cho','6823','Hiroshima',NULL,'JP' from dual union all
     select 1400,'2014 Jabberwocky Rd','26192','Southlake','Texas','US' from dual union all
     select 1500,'2011 Interiors Blvd','99236','South San','California','US' from dual union all
     select 1600,'2007 Zegora St','50090','South Brun','New Jersey','US' from dual union all
