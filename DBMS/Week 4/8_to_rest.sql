@@ -59,10 +59,10 @@ create table locations(
     postal_code varchar(15),
     city varchar(25),
     state_province varchar(30),
-    country_id varchar(5) not null
+    country_id varchar(5)
 );
 create table countries(
-    country_id varchar(5) not null,
+    country_id varchar(5),
     country_name varchar(25),
     region_id int
 );
