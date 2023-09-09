@@ -18,7 +18,6 @@ district varchar(35),
 state_ varchar(20),
 foreign key(emp_id) references emp_1(emp_id)
 );
-insert into emp_address(emp_id)
 insert into emp_address(emp_id,city,district,state_)
 with names as(
 select 1,'Suri','Birbhum','WB' from dual union all
