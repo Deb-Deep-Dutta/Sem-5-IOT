@@ -39,7 +39,7 @@ belongs to, from the Employee, Department and Emp_Address tables.*/
 select (f_name||' ' ||l_name)"Employee Name",d_loc,city from emp_1 e inner join department d on e.dept=d.d_name inner join emp_address ea on e.emp_id=ea.emp_id;
 
 /*6. Find the name of each department’s manager.*/
-select (f_name||' ' ||l_name)"Manager Name" from emp_1 where job_type='Manager';
+select (f_name||' ' ||l_name)"Manager Name",dept from emp_1 where job_type='Manager';
 
 /*7. Create ‘Job_Grades’ table and insert the following values:"values given in PDF in image format"*/
 create table job_grades(
