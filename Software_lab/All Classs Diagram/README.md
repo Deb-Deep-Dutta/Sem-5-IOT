@@ -1,1 +1,1 @@
-# All Class Diagrams PDF
+# All Class Diagram PDFs
