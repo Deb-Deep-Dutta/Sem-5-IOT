@@ -129,7 +129,7 @@ create table text (
     author VARCHAR2(25)
 );
 
-/*ii) Enter atleast five tuples for each relation.
+/*ii) Enter atleast five tuples for each relation.*/
 insert into student (regno, name, major, bdate)
 with names as(
     select '10000', 'Paul', 'UG', TO_DATE('2023-07-24', 'YYYY-MM-DD') from dual union all
